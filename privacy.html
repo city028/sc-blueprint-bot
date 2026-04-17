@@ -1,26 +1,133 @@
-# Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Discord Bot</title>
+    <style>
+        :root {
+            --primary-color: #5865F2; /* Discord Blurple */
+            --text-color: #2e3338;
+            --bg-color: #f6f8fa;
+            --card-bg: #ffffff;
+            --border-color: #e3e5e8;
+        }
 
-1. Data We Collect
-Guild ID & User IDs: Used as unique identifiers to provide and manage the service.
-Discord Display Name: Collected to identify users within the bot's interface.
-Blueprint Data: We extract text from uploaded blueprint screenshots. 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
 
-2. How We Handle Images
-Immediate Deletion: Blueprint screenshots are processed for text extraction and then deleted immediately from our memory/servers. We do not store original image files.
-Extracted Text: Only the resulting text data is saved to our database to provide the bot’s core functionality.
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
 
-3. Lawful Basis for Processing (GDPR)
-We process your data based on Contractual Necessity (to provide the service you requested) and Legitimate Interest (to maintain bot security and server-specific settings).
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
 
-4. Data Retention & Your Rights
-Under GDPR, you have the following rights:
-Right to Access: You may request a copy of the data we have stored about you.
-Right to Erasure ("Right to be Forgotten"): You can request the deletion of your data at any time.
-Data Deletion: To delete your data, you can [insert command, e.g., use `/delete-my-data`] or contact the developer directly.
+        h2 {
+            color: #23272a;
+            margin-top: 30px;
+            font-size: 1.4rem;
+        }
 
-5. Third-Party Sharing
-We do not sell your personal data. Data is only shared with Discord as necessary for the bot to function through their API.
+        ul {
+            padding-left: 20px;
+        }
 
-6. Contact
-For any privacy-related inquiries, please contact CityGamer on Discord.
+        li {
+            margin-bottom: 10px;
+        }
 
+        .command {
+            background: #ebedef;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #72767d;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 20px 10px; }
+            .container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Privacy Policy</h1>
+        <p><em>Last Updated: April 17, 2026</em></p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Data We Collect</h2>
+            <ul>
+                <li><strong>Guild ID & User IDs:</strong> Used as unique identifiers to provide and manage the service.</li>
+                <li><strong>Discord Display Name:</strong> Collected to identify users within the bot's interface.</li>
+                <li><strong>Blueprint Data:</strong> We extract text from uploaded blueprint screenshots.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. How We Handle Images</h2>
+            <p><strong>Immediate Deletion:</strong> Blueprint screenshots are processed for text extraction and then deleted immediately from our memory/servers. We do not store original image files.</p>
+            <p><strong>Extracted Text:</strong> Only the resulting text data is saved to our database to provide the bot’s core functionality.</p>
+        </section>
+
+        <section>
+            <h2>3. Lawful Basis for Processing (GDPR)</h2>
+            <p>We process your data based on <strong>Contractual Necessity</strong> (to provide the service you requested) and <strong>Legitimate Interest</strong> (to maintain bot security and server-specific settings).</p>
+        </section>
+
+        <section>
+            <h2>4. Data Retention & Your Rights</h2>
+            <p>Under GDPR, you have the following rights:</p>
+            <ul>
+                <li><strong>Right to Access:</strong> You may request a copy of the data we have stored about you.</li>
+                <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You can request the deletion of your data at any time.</li>
+                <li><strong>Data Deletion:</strong> To delete your data, you can use the <span class="command">/delete-my-data</span> command or contact the developer directly.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Third-Party Sharing</h2>
+            <p>We do not sell your personal data. Data is only shared with Discord as necessary for the bot to function through their API.</p>
+        </section>
+
+        <section>
+            <h2>6. Contact</h2>
+            <p>For any privacy-related inquiries, please contact <strong>CityGamer</strong> on Discord.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CityGamer. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
