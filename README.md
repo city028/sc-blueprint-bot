@@ -110,9 +110,6 @@ To view your current configuration without making changes, run `/blueprint-confi
 | `/blueprint-config` not visible to you | You need the **Manage Server** permission |
 | Bot processed the image but found no blueprint data | Make sure the screenshot shows the full Fabrication Kiosk panel clearly |
 
----
-
-*SC Blueprint Bot is a community project for Star Citizen players. It is not affiliated with or endorsed by Cloud Imperium Games.*
 
 ---
 
@@ -123,3 +120,8 @@ Try before you try? Come and join us on the development server to try it out: ht
 If you like what you see,  follow the link below to install the bot on your own server or on that of your Org.
 
 Discord Invite Link: https://discord.com/oauth2/authorize?client_id=1493936820143259720
+
+---
+
+*SC Blueprint Bot is a community project for Star Citizen players. It is not affiliated with or endorsed by Cloud Imperium Games.*
+
