@@ -110,6 +110,9 @@ To view your current configuration without making changes, run `/blueprint-confi
 | `/blueprint-config` not visible to you | You need the **Manage Server** permission |
 | Bot processed the image but found no blueprint data | Make sure the screenshot shows the full Fabrication Kiosk panel clearly |
 
+---
+
+It is strongly adviced to checkout our  wiki pages at: https://github.com/city028/sc-blueprint-bot/wiki
 
 ---
 
