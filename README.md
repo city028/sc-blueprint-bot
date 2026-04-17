@@ -116,4 +116,10 @@ To view your current configuration without making changes, run `/blueprint-confi
 
 ---
 
+Try before you try? Come and join us on the development server to try it out: https://discord.gg/tHumPB9d 
+
+---
+
+If you like what you see,  follow the link below to install the bot on your own server or on that of your Org.
+
 Discord Invite Link: https://discord.com/oauth2/authorize?client_id=1493936820143259720
