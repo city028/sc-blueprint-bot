@@ -116,7 +116,7 @@ It is strongly adviced to checkout our  wiki pages at: https://github.com/city02
 
 ---
 
-Try before you try? Come and join us on the development server to try it out: [https://discord.gg/tHumPB9d ](https://discord.gg/E567aYHp)
+Try before you try (its free)? Come and join us on the development server to try it out: [https://discord.gg/tHumPB9d ](https://discord.gg/E567aYHp)
 
 ---
 
